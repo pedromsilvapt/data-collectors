@@ -9,9 +9,7 @@
         "outDir": "lib/",
         "experimentalDecorators": true,
         "esModuleInterop": true,
-        "lib": [
-            "es2015.promise", "es2015", "esnext.asynciterable"
-        ]
+        "lib": [ "es5", "es2015.collection", "es2015.iterable" ]
     },
     "include": [
         "src/**/*"
