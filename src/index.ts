@@ -16,6 +16,8 @@ export { last } from './queries/last';
 
 export { averaging, Comparator, bounds, max, min, sum } from './queries/math';
 
+export { DistinctCollector, distinct } from './transformers/distinct';
+
 export { MappingCollector, mapping } from './transformers/mapping';
 
 export { sorting } from './transformers/sorting';
